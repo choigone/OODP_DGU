@@ -27,7 +27,13 @@ public class Name {
     public boolean getIsMiddle() {return isThereMiddle; }
     public int getNameLength()
     {
-        String fullName = getFirstName()+getMiddleName()+getLastName();
+        String fullName;
+        if(isThereMiddle){
+            fullName = getFirstName()+getMiddleName()+getLastName();
+        }
+        else{
+            fullName = getFirstName()+getLastName();
+        }
         return fullName.length();
     }
 

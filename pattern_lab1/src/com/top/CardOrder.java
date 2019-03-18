@@ -87,7 +87,7 @@ public class CardOrder {
 
     private String getLineWithName() {
         String Nameline = name.getFirstName();
-        if(name.getMiddleName().isEmpty()){
+        if(name.getMiddleName()==null){
             Nameline += name.getLastName();
         }
         else Nameline = Nameline + ' ' + name.getMiddleName().charAt(0) + ' ' + name.getLastName();
