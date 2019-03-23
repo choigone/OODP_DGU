@@ -8,6 +8,6 @@ public class TextPrinter {
     }
 
     public void printText(){
-
+        System.out.println(text.getText());
     }
 }

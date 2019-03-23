@@ -14,6 +14,6 @@ public class ToyPlain implements Toy {
     }
 
     public void fly(){
-
+        System.out.println("ToyPlain is flying - ");
     }
 }

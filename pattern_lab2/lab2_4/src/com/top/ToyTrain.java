@@ -14,6 +14,6 @@ public class ToyTrain implements Toy {
     }
 
     public void move(){
-
+        System.out.println("ToyTrain is moving - ");
     }
 }
