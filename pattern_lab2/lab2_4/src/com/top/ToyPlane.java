@@ -1,6 +1,6 @@
 package com.top;
 
-public class ToyPlain implements Toy {
+public class ToyPlane implements Toy {
     private double price;
     private String color;
     @Override
@@ -14,6 +14,6 @@ public class ToyPlain implements Toy {
     }
 
     public void fly(){
-        System.out.println("ToyPlain is flying - ");
+        System.out.println("ToyPlane is flying - ");
     }
 }

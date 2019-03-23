@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa15e9db-1f32-421a-aaa4-53b1a3723d88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab2_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_2/src/com/top/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_2/src/com/top/TextEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_2/src/com/top/TextPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_2/src/com/top/TextPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_4/src/com/top/ToyCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_4/src/com/top/ToyCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_4/src/com/top/ToyPlain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_4/src/com/top/ToyPlain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_4/src/com/top/ToyTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_4/src/com/top/ToyTrain.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa15e9db-1f32-421a-aaa4-53b1a3723d88" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -104,6 +92,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,17 +138,17 @@
       <updated>1553256236477</updated>
       <workItem from="1553256242412" duration="1132000" />
       <workItem from="1553351650295" duration="10000" />
+      <workItem from="1553352337897" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1142000" />
+    <option name="totallyTimeSpent" value="1154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
