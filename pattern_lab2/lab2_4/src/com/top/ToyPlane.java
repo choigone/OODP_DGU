@@ -13,6 +13,10 @@ public class ToyPlane implements Toy {
         this.color = color;
     }
 
+    public void move(){
+        System.out.println("ToyPlane is moving - ");
+    }
+
     public void fly(){
         System.out.println("ToyPlane is flying - ");
     }

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd459cd6-4c2f-49c4-8f96-a27b58470f1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/top/ToyPlain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/top/ToyPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/top/ToyPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/top/ToyPlane.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/top/ToyTrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="165">
               <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="e#162#163#0" expanded="true" />
@@ -85,13 +83,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/top/ToyPlane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="240">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding>
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
               </folding>
@@ -136,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -154,6 +153,7 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,17 +199,18 @@
       <workItem from="1553255184223" duration="1015000" />
       <workItem from="1553351520419" duration="129000" />
       <workItem from="1553352352046" duration="75000" />
+      <workItem from="1553352594148" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1219000" />
+    <option name="totallyTimeSpent" value="1268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +288,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/top/ToyTrain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="165">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
@@ -302,13 +303,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/top/ToyPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
           </folding>
