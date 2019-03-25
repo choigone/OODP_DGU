@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="a1bfeab9-eaf1-44c8-af98-e53ef1e676c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../lab2_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_1/src/com/top/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_1/src/com/top/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_1/src/com/top/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_1/src/com/top/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_1/src/com/top/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_1/src/com/top/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/top/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/top/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/top/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/top/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/top/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/top/TextEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/top/TextPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/top/TextPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_3/src/com/top/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_3/src/com/top/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_4/src/com/top/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_4/src/com/top/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_5/src/com/top/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_5/src/com/top/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_5/src/com/top/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_5/src/com/top/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +27,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/top/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/top/Text.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/top/Text.java">
+        <entry file="file://$PROJECT_DIR$/src/com/top/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,14 +65,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/top/TextEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="14" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,12 +83,12 @@
         <entry file="file://$PROJECT_DIR$/src/com/top/TextPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#102#103#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,9 +109,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/top/Text.java" />
         <option value="$PROJECT_DIR$/src/com/top/TextPrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/top/Author.java" />
+        <option value="$PROJECT_DIR$/src/com/top/Main.java" />
         <option value="$PROJECT_DIR$/src/com/top/TextEditor.java" />
+        <option value="$PROJECT_DIR$/src/com/top/Text.java" />
       </list>
     </option>
   </component>
@@ -108,8 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -126,12 +145,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553351446517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553446869144" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -157,6 +178,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,16 +198,20 @@
       <workItem from="1553257791543" duration="1424000" />
       <workItem from="1553351122485" duration="29000" />
       <workItem from="1553351186115" duration="229000" />
+      <workItem from="1553445740937" duration="1122000" />
+      <workItem from="1553498903389" duration="339000" />
+      <workItem from="1553507202597" duration="13000" />
+      <workItem from="1553509921691" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1913000" />
+    <option name="totallyTimeSpent" value="3407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -190,7 +220,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,6 +230,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -215,55 +246,62 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/top/Author.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/top/TextPrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/top/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/top/Author.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/top/TextEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="14" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
             <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/top/TextPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/top/Text.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/top/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

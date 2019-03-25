@@ -13,12 +13,12 @@ public class Square extends Rectangle {
     }
 
     public void setHeight(int height){
-        this.height = height;
-        this.width = height;
+        super.height = height;
+        super.width = height;
     }
 
     public void setWidth(int width){
-        this.height = width;
-        this.width = width;
+        super.height = width;
+        super.width = width;
     }
 }

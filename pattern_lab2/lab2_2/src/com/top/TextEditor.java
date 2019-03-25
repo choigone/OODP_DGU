@@ -9,6 +9,6 @@ public class TextEditor {
         text.setText(text.getText().toUpperCase());
     }
     public void findSubTextAndDelete(String s){
-        text.setText(text.getText().replace(s,""));
+        text.setText(text.getText().replace(s+" ",""));
     }
 }
