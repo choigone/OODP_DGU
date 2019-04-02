@@ -1,8 +1,6 @@
 package com.top;
 import javax.swing.table.*;
 
-
-
 public class RocketTable extends AbstractTableModel{
 
     protected Rocket[] rockets;
@@ -26,7 +24,7 @@ public class RocketTable extends AbstractTableModel{
     public Object getValueAt(int rowIndex, int columnIndex) {
         if(columnNames[columnIndex] == "Name") return rockets[rowIndex].getName();
         else if(columnNames[columnIndex] == "Price") return rockets[rowIndex].getPrice();
-        else if(columnNames[columnIndex] == "Apogee") return rockets[rowIndex].getApogee();
+        else if(columnNames[columnIndex] == "Apogee") return rockets[rowIndex].getApogee().data;
         else return null;
     }
 

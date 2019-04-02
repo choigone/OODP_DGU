@@ -1,7 +1,5 @@
 package com.top;
 
-import sun.security.util.Length;
-
 public class Rocket {
     String name;
     double price;
