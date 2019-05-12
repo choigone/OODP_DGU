@@ -1,3 +1,5 @@
+//2016112182최고운
+
 package com.top;
 
 enum Direction {UP,DOWN}
@@ -5,6 +7,7 @@ enum MotorStatus {MOVING,STOPPING}
 abstract class Motor{
     private MotorStatus motorStatus;
     protected abstract void moveMotor(Direction direction);
+    protected abstract String getName();
     public Motor(){
         motorStatus = MotorStatus.STOPPING;
     }
@@ -32,16 +35,28 @@ abstract class Motor{
 }
 
 class LGMotor extends Motor{
+    private String name = "LG";
     @Override
     protected void moveMotor(Direction direction) {
         System.out.println("move LG Motor " + direction);
     }
+
+    @Override
+    protected String getName() {
+        return name;
+    }
 }
 
 class HyundaiMotor extends Motor{
+    private String name = "Hyundai";
     @Override
     protected void moveMotor(Direction direction) {
         System.out.println("move Hyndai Motor " + direction);
+    }
+
+    @Override
+    protected String getName() {
+        return name;
     }
 }
 
@@ -66,25 +81,35 @@ class ElevatorController{
 
         System.out.print("Elevator [" + id + "] floor : " + curFloor);
         curFloor = destination;
-        System.out.println(" ==> " + curFloor + " with " + motor.getClass().getName());
+        System.out.println(" ==> " + curFloor + " with " + motor.getName());
 
         motor.stop();
     }
 }
 
 class MotorFactory{
-
+    public Motor createMotor(String type){
+        Motor motor = null;
+        if(type == "Hyundai"){
+            motor = new HyundaiMotor();
+        }
+        if(type == "LG"){
+            motor = new LGMotor();
+        }
+        return motor;
+    }
 }
 
 public class FactoryMain {
     public static void main(String[] args){
-        Motor lgMotor = new LGMotor();
-        ElevatorController controller1 = new ElevatorController(1,lgMotor);
+        MotorFactory factory = new MotorFactory();
+        Motor motor = factory.createMotor("LG");
+        ElevatorController controller1 = new ElevatorController(1,motor);
         controller1.gotoFloor(5);
         controller1.gotoFloor(3);
 
-        Motor hyundaiMotor = new HyundaiMotor();
-        ElevatorController controller2 = new ElevatorController(1,hyundaiMotor);
+        motor = factory.createMotor("Hyundai");
+        ElevatorController controller2 = new ElevatorController(1,motor);
         controller2.gotoFloor(4);
         controller2.gotoFloor(6);
     }
