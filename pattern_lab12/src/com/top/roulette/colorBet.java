@@ -7,7 +7,7 @@ public class colorBet extends Bet{
 
     colorBet(ConsoleReader cr){
         this.cr = cr;
-        this.myDescription = cr.betDes.get(1);
+        this.myDescription = cr.getBetDes().get(1);
         this.myPayout = 1;
     }
 

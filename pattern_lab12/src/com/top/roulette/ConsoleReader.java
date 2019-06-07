@@ -5,15 +5,20 @@ import java.util.*;
 
 public class ConsoleReader {
 
-    HashMap<Integer,String> betDes = new HashMap();
-    Set<Map.Entry<Integer, String>> entries = betDes.entrySet();
+    private HashMap<Integer,String> betDes = new HashMap();
+    private Set<Map.Entry<Integer, String>> entries = betDes.entrySet();
+
+    private Scanner in = new Scanner(new InputStreamReader(System.in));
+
     ConsoleReader(){
         betDes.put(1,"Red or Black");
         betDes.put(2,"Odd or Even");
         betDes.put(3,"Three in a Row");
     }
 
-    private Scanner in = new Scanner(new InputStreamReader(System.in));
+    public HashMap<Integer, String> getBetDes() {
+        return betDes;
+    }
 
     public void setInput(InputStreamReader inputStream) {
         in = new Scanner(inputStream);

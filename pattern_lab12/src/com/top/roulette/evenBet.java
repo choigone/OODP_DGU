@@ -7,7 +7,7 @@ public class evenBet extends Bet{
 
     evenBet(ConsoleReader cr){
         this.cr = cr;
-        this.myDescription = cr.betDes.get(2);
+        this.myDescription = cr.getBetDes().get(2);
         this.myPayout = 1;
     }
 

@@ -4,7 +4,7 @@ public class numberBet extends Bet{
 
     numberBet(ConsoleReader cr){
         this.cr = cr;
-        this.myDescription = cr.betDes.get(3);
+        this.myDescription = cr.getBetDes().get(3);
         this.myPayout = 11;
     }
 
