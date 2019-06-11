@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Vector;
 
 //TODO 이 클래스가 너무 많은 책임을 지고있는 것 같다 -> 이게 중재자 패턴은 아니겠지 ?
-public class WordProblemGenerator {
+public class WPGInteraction {
 
     //member
     //TODO 학생은 하나만 생성되어야 할까? Singleton
@@ -39,7 +39,7 @@ public class WordProblemGenerator {
         student.setName(name);
     }
 
-    public void getPeoples(){
+    public void getThings(){
         String name;
         while(true){
             System.out.println(GET_INTERESTED_THINGS_NAME_MESSAGE);
@@ -50,13 +50,17 @@ public class WordProblemGenerator {
         }
     }
 
-    public void getThings(){
+    public void getPeoples(){
         String name;
+        int gender;
         while(true){
             System.out.println(GET_IMPORTANT_PEOPLE_NAME_MESSAGE);
+            System.out.println("이름 : ");
             name = sc.nextLine();
+            System.out.println("성별 ( 1.여 2.남 ) : ");
+            gender = sc.nextInt();
             if(name.equals("0")) break;
-            Content people = new People(name);
+            Content people = new People(name,gender);
             things.add(people);
         }
     }

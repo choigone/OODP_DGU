@@ -6,6 +6,5 @@ abstract class Template {
     public String getResultTemplate() {
         return resultTemplate;
     }
-
-    abstract void makeTemplate();
+    abstract void mekeTemplate();
 }

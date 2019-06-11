@@ -1,3 +1,5 @@
+//2016112182 최고운
+
 package com.top.roulette;
 
 import java.util.Random;

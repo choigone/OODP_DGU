@@ -2,7 +2,12 @@ package com.top;
 
 public class Sub extends Calculate {
     @Override
-    int calculate() {
-        return num1-num2;
+    int calculate(int num1, int num2) {
+        return 0;
+    }
+
+    @Override
+    boolean isAnswer() {
+        return false;
     }
 }

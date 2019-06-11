@@ -1,7 +1,7 @@
 package com.top;
 
 abstract class Calculate {
-    protected int num1;
-    protected int num2;
-    abstract int calculate();
+    private Template template;
+    abstract int calculate(int num1,int num2);
+    abstract boolean isAnswer();
 }
